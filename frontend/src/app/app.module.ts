@@ -35,7 +35,8 @@ import { registerLocaleData } from  '@angular/common';
 import { ForDirective } from './directives/for.directive';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
-import { TemplateFormComponent } from './components/template/template-form/template-form.component';
+import { TemplateFormComponent } from './components/template-form/template-form.component';
+import { DataFormComponent } from './components/data-form/data-form.component';
 
 registerLocaleData(localePt);
 
@@ -55,6 +56,7 @@ registerLocaleData(localePt);
     ProductUpdateComponent,
     ProductDeleteComponent,
     TemplateFormComponent,
+    DataFormComponent,
   ],
   imports: [
     BrowserModule,

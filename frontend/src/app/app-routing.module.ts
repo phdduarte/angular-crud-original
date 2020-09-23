@@ -6,6 +6,8 @@ import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./views/home/home.component";
 import { ProductCrudComponent } from "./views/product-crud/product-crud.component";
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { TemplateFormComponent } from './components/template-form/template-form.component';
+import { DataFormComponent } from './components/data-form/data-form.component';
 
 
 const routes: Routes = [
@@ -28,6 +30,14 @@ const routes: Routes = [
   {
     path: "products/delete/:id",
     component: ProductDeleteComponent
+  },
+  {
+    path: "templateForm",
+    component: TemplateFormComponent
+  },
+  {
+    path: "dataForm",
+    component: DataFormComponent
   },
 ];
 
